@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows OS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons/favicon.png" sizes="152x152">
+</head>
+
+<body>
+
+    <video autoplay muted id="myVideo">
+        <source src="img/video.webm" type="video/webm">
+    </video>
+
+
+    <div class="icons" onclick="toggleEdgeCard(1)">
+        <img class="icon-image" src="img/icons/os intro.png" alt="OS Introduction">
+        <div>OS Introduction</div>
+    </div>
+
+
+    <div class="icons" onclick="toggleEdgeCard(2)">
+        <img class="icon-image" src="img/icons/os back.png" alt="OS Background">
+        <div>OS Background</div>
+    </div>
+
+    <div class="icons" onclick="toggleEdgeCard(3)">
+        <img class="icon-image" src="img/icons/os fea1.png" alt="OS Features">
+        <div>OS Features & <br>Services </div>
+    </div>
+
+
+    <div class="icons" onclick="toggleEdgeCard(5)">
+        <img class="icon-image" src="img/icons/os dis.png" alt="Distinction">
+        <div>Distinction</div>
+    </div>
+
+    <div class="icons" onclick="toggleEdgeCard(7)">
+        <img class="icon-image" src="img/icons/discover more icon.png" alt="Discover More ">
+        <div>Discover More</div>
+    </div>
+
+    <div class="icons" onclick="toggleEdgeCard(8)">
+        <img class="icon-image" src="img/icons/references icon.png" alt="Reference">
+        <div>References</div>
+    </div>
+
+    <div class="icons" onclick="toggleEdgeCard(6)">
+        <img class="icon-image" src="img/icons/os crea.png" alt="OS Creative Team ">
+        <div>Creative Team</div>
+    </div>
+
+    
+
+
+    <!------ OS INTRODUCTION ---------->
+    <div id="edgeCard1" class="card" style="display:none;">
+        <h2 class="card-title">Windows OS Introduction</h2>
+        <!-- Page 1 -->
+        <div class="card-content" id="card1-content1">
+            <div class="card-images">
+                <img id="special"src="img/icons/bilzz.jpg" alt="Image Description">
+                <img id="special" src="img/icons/introo.webp" alt="Image Description">
+                <img src="img/icons/GatesAllen.webp" alt="Image Description">
+            </div>
+            <div class="card-text">
+                <p>&nbsp;&nbsp;&nbsp;In 1975, a new company was created, initially known as “Micro-soft” founded by Bill Gates and Paul Allen. Microsoft Windows, launched in 1985 with its inaugural release, Windows 1.0, stands as a testament to the incredible evolution of operating systems. Over the years, this software series has undergone a remarkable journey, shaping the landscape of personal computing through its iterative versions, each introducing innovative features, user interface enhancements, and technological advancements. It started as a graphical user interface (GUI) shell for MS-DOS, changing the game by allowing users to click on things with a mouse rather than typing out commands. This virtual desktop concept was groundbreaking, simplifying the way people interacted with their computers.
+                    Taking inspiration from Apple’s Macintosh system, Windows gradually became the preferred operating system, reigning over approximately 90% of personal computers. Its story unfolds as a captivating exploration of innovation and technological progress, fundamentally shaping the landscape of personal computing.
+                    
+                </p>
+            </div>
+            <button onclick="showCardPage(1, 2)">Next</button>
+        </div>
+        
+        <!-- Page 2 (initially hidden) -->
+        <div class="card-content" id="card1-content2" style="display:none;">
+            <p> &nbsp;&nbsp;&nbsp;The journey didn't stop with the first version. Specialized versions like Windows for Workgroups and Windows NT catered to networking and business needs, showcasing the adaptability of the Windows platform.
+                In 1995, Windows 95 made a grand entrance, fully integrating Windows and DOS and bringing Internet Explorer to the table, opening up the World Wide Web for users. The early 2000s witnessed the unification of different Windows versions under Windows XP, praised for its smoother performance, practical interface, and user-friendly experience.
+                However, not every version was a smooth ride. Windows Vista in 2006 faced criticism for being slow and resource-intensive. Microsoft swiftly responded in 2009 with Windows 7, a faster and more efficient version reminiscent of Vista but with improved performance.The year 2012 marked the introduction of Windows 8, featuring a modern start screen with application tiles and the ability to sync settings across different machines, a game-changer for users with multiple devices. The climax of this journey was Windows 10 in 2015. It brought Cortana, a digital personal assistant, and bid farewell to Internet Explorer, introducing Microsoft Edge as the sleek new web browser. 
+                <br>
+                &nbsp;&nbsp;&nbsp;Continuing the narrative, the evolution of Windows continued beyond Windows 10. In 2018, Microsoft introduced Windows 10 October 2018 Update, focusing on productivity enhancements and user experience refinements. This signaled a shift towards a more iterative approach, with regular updates introducing new features and improvements rather than waiting for a major release.
+                Moreover, the introduction of Windows 11 in 2021 marked a significant departure in terms of design aesthetics and user interface. Windows 11 featured a centered Start menu, rounded corners, and a more streamlined taskbar, providing a fresh and modern look. The update also brought improvements in virtual desktops, gaming experiences, and compatibility with Android apps, demonstrating Microsoft's commitment to staying at the forefront of technological innovation.
+                This exploration of Microsoft Windows isn't just a technological tale; it's a journey that has left a permanent mark on technology, culture, and society. From its humble beginnings to the versatile platform, we know today, Windows has transformed the way we interact with computers, embodying the ever-evolving nature of the digital era.
+                </p>
+            <button onclick="hideEdgeCard(1)">Close Card</button>
+        </div>
+    </div>
+
+        <!------ OS BACKGROUND ---------->
+        <div id="edgeCard2" class="card" style="display:none;">
+            <h2 class="card-title">Windows Background</h2>
+            <!-- Page 1 -->
+            <div class="card-content" id="card2-content2">
+                <div class="card-images">
+                    <img src="img/icons/biiliw.jpg" alt="Image Description">
+                    <img id="special" src="img/icons/billgates.jpg" alt="Image Description">
+                    <img src="img/icons/os-bg.webp" alt="Image Description">
+                </div>
+                <div class="card-text">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;Microsoft Windows is a series of operating systems developed by Microsoft Corporation. The first version, Windows 1.0, was released on November 20, 1985. Since then, Windows has evolved through multiple versions, with each iteration introducing new features, improvements, and updates. <br>
+                    1. Windows 1.0 (1985): The initial version of Windows was a graphical user interface shell for MS-DOS. It introduced features such as a multitasking environment, graphical user interface (GUI), and support for various applications.<br>
+                    2. Windows 3.0 (1990): Windows 3.0 marked a significant milestone for Microsoft with improved performance, enhanced graphics, and the introduction of Program Manager and File Manager.<br>
+                    3. Windows 95 (1995): Windows 95 was a major release, featuring a new user interface, the Start menu, and the taskbar. It was a significant departure from earlier versions and played a crucial role in popularizing the Windows operating system.<br>
+
+                </p>
+                </div>
+                <button onclick="showCardPage(2, 3)">Next</button>
+            </div>
+            
+            <!-- Page 2 (initially hidden) -->
+            <div class="card-content" id="card2-content3" style="display:none;">
+                <p>4. Windows XP (2001): Windows XP brought stability and a refreshed user interface. It became one of the most widely used versions of Windows.
+                    <br>
+                    5. Windows 7 (2009): Windows 7 improved upon the foundation laid by Windows Vista, offering enhanced performance, a streamlined interface, and improved compatibility.
+                    <br>
+                    6. Windows 10 (2015): Windows 10 is the latest major release as of my last knowledge update in January 2022. It introduced a unified platform across various devices, including PCs, tablets, and smartphones.
+
+                </p>
+                <button onclick="hideEdgeCard(2)">Close Card</button>
+            </div>
+        </div>
+
+                <!------ OS FEATURES ---------->
+                <div id="edgeCard3" class="card" style="display:none;">
+                    <h2 class="card-title">Windows OS Features & Services</h2>
+                    <!-- Page 1 -->
+                    <div class="card-content" id="card3-content3">
+                        <div class="card-images">
+                            <img src="img/icons/hq720.jpg" alt="Image Description">
+                            <img src="img/icons/Windows_1.0_Remastered.webp" alt="Image Description">
+                            <img src="img/icons/download.jpg" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 1.0 (1985)</b><br>
+                                The revolutionary Windows 1.0 operating system appeared in 1985 as a response to the problems of the text-based, command-driven MS-DOS operating system. Windows 1.0, which layered a visual interface over MS-DOS, attempted to streamline PC navigation even though it wasn't the first to adopt a graphical user interface (GUI). Windows 1.0 set itself apart from its predecessors (Xerox's Star in 1981 and Apple's Lisa in 1983) by being more reasonably priced, which gave Microsoft a big advantage.
+                                <br>
+                                <b>Affordability:</b> Even while Microsoft's Windows 1.0 entered the GUI field later than its competitors, it was more affordable than its predecessors.<br>
+                                <b>Features:</b> Windows 1.0 introduced dialogue boxes, drop-down menus, and icons. It established a standard for Microsoft OS functionality by introducing multitasking and data transfer between applications.<br>
+                                <b>Program Inclusions:</b> Windows Write, Windows Paint, a terminal application, a file manager, a clock, a calendar, a notepad, a file manager, a cardfile, and the game Reversi.
+                                </p>
+                        </div>
+                        <button onclick="showCardPage(3, 4)">Next</button>
+                    </div>
+                    
+                    <!-- Page 2 (initially hidden) -->
+                    <div class="card-content" id="card3-content4" style="display:none;">
+                            <div class="card-images">
+                                <img src="img/icons/2.00.png" alt="Image Description">
+                                <img id="special" src="img/icons/2.0center.png" alt="Image Description">
+                                <img src="img/icons/2.000.jpg" alt="Image Description">
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    <b>Windows 2.0 (1987)</b><br>
+                                    Microsoft released Windows 2.0 in 1987, just two years after releasing its initial operating system with an upgraded graphical user interface (GUI). Significant improvements were made with this version, which included support for VGA graphics, keyboard shortcuts, and overlapping and resizable windows. Significantly, it also signaled the release of Microsoft Word and Excel for Windows.
+                                    </p>
+                            </div>
+                            <button onclick="showCardPage(3, 5)">Next</button>
+                        </div>
+
+                    <div class="card-content" id="card3-content5" style="display:none;">
+                        <div class="card-images">
+                            <img id="special"src="img/icons/3.00.png" alt="Image Description">
+                            <img id="special" src="img/icons/3.0center.png" alt="Image Description">
+                            <img id="special"src="img/icons/3.000.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 3.0 (1990)</b><br>
+                                <b>Notable features:</b> 256 color support was added. provided support for multitasking DOS apps, improving the usefulness of the operating system. signaled the beginning of Windows' broad appeal as a desktop operating system.<br>
+                                <b>Effect on use:</b> Windows 3.0 is seen as a critical turning point for Microsoft and has had a substantial impact on the adoption of Windows as a desktop operating system worldwide.<br>
+                                <b>Notable Addition:</b> The iconic desktop game Solitaire was first released with Windows 3.0.
+                            </p>
+                        </div>
+                        <button onclick="showCardPage(3, 6)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content6" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/3.11.webp" alt="Image Description">
+                            <img id="special" src="img/icons/3.1center.webp" alt="Image Description">
+                            <img src="img/icons/3.111.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 3.1 (1992)</b><br>
+                                Microsoft introduced Windows 3.1, a major update, in 1992, a mere two years after Windows 3.0. It added several important features, even if its decimal name suggested a slight upgrade. These featured compatibility with OLE compound documents, which allowed the integration of elements from other programs, support for TrueType fonts, and the ability to drag and drop icons. The Guardian also notes that Windows 3.1 was the first Windows version to be distributed via CD-ROM.
+                            </p>
+                        </div>
+                        <button onclick="showCardPage(3, 7)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content7" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/3.11.webp" alt="Image Description">
+                            <img id="special" src="img/icons/3.1center.webp" alt="Image Description">
+                            <img src="img/icons/3.111.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 95 (1995)</b><br>
+                                Web browsing functionality was integrated into the operating system with the release of Microsoft's web browser, Internet Explorer, in Windows 95. Out of all the Windows operating systems, Windows 95 is regarded as one of the most recognizable, having been released in 1995.
+                                <br>
+                                <b>Advancements in Technology:</b>
+                                It was a big change from the earlier 16-bit versions of Windows since it was the first 32-bit version.<br>
+                                <b>Significant Features:</b>
+                                Introduced a number of features, such as the taskbar, Start menu, long file names, and plug-and-play support for peripheral devices, that went on to become historic additions.<br>
+                                <b>Enhancement of Boot Process:</b>
+                                With Windows 95, the operating system could boot directly from disk for the first time, unlike its predecessor, which required booting into MS-DOS.
+                                Integration with Microsoft DOS: Windows 95 marked a change in that it allowed Windows to boot directly without using MS-DOS, even though it was still compatible with DOS.
+                             </p>
+                        </div>
+                        <button onclick="showCardPage(3, 8)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content8" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/988.png" alt="Image Description">
+                            <img id="special" src="img/icons/98centwe.jpg" alt="Image Description">
+                            <img src="img/icons/9888.webp" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 98 (1998)</b><br>
+                                After Windows 95, Windows 98 was released with an emphasis on improving internet capabilities. Along with internet-related capabilities like Outlook Express, Microsoft Chat, and the Web Publishing Wizard, it also brought Internet Explorer 4.01 to the table. Additionally, the operating system included Flash and Shockwave, two Macromedia players, and offered enhanced support for USB devices. All things considered, Windows 98 increased Microsoft's market share in the web browser industry and enhanced user connectivity and multimedia experiences.
+                             </p>
+                        </div>
+                        <button onclick="showCardPage(3, 9)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content9" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/ME.png" alt="Image Description">
+                            <img id="special" src="img/icons/MECENRER.jpg" alt="Image Description">
+                            <img src="img/icons/MEEE.webp" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows ME (Millennium Edition) (2000)</b><br>
+                                While the "ME" in Windows ME stands for "Millennium Edition," the less favorable label "The Mistake Edition" was given to the software because of a number of issues that users experienced with it when it first came out in 2000. Setting up, compatibility, and general functionality problems were reported by users. Despite its difficult beginnings, Windows ME brought about the helpful System Restore function, which lets users restore their systems to an earlier version when software or update installations go awry. But System Restore had problems of its own, often bringing back malware that had been deleted.                             </p>
+                        </div>
+                        <button onclick="showCardPage(3, 10)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content10" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/xp.png" alt="Image Description">
+                            <img id="special" src="img/icons/xpcenter.jpg" alt="Image Description">
+                            <img src="img/icons/xpp.jpg" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows XP (2001)</b><br>
+                                There are two primary versions of Windows XP, Home for home use and Professional for corporate environments. Windows XP was released in 2001 and is widely recognized for its success. Its rise in popularity was helped by the spike in PC sales at the same time. The attraction of the OS was aided by its user-friendly design, which included a green Start button, warm, colorful aesthetics, and configurable themes. After 13 years of operation, Microsoft stopped supporting Windows XP in 2014. Native CD burning, desktop search, remote desktop, and gradually enhanced security were among the important features.
+                            </div>
+                        <button onclick="showCardPage(3, 11)">Next</button>
+                    </div>
+
+                    
+                    <div class="card-content" id="card3-content11" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/vista.png" alt="Image Description">
+                            <img id="special" src="img/icons/vistacenter.jpg" alt="Image Description">
+                            <img src="img/icons/vistaa.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows Vista (2007)</b><br>
+                                <b>Release and Interface: </b>Aero Glass, a freshly created interface, was included with the 2007 release of Windows Vista.<br>
+                                <b>Compatibility Problems:</b> Aero Glass has problems integrating with some graphics drivers on newer PCs and older hardware.<br>
+                                <b>Performance Issues:</b> Vista was criticized for its expensive price tag, sluggish performance, and excessive use of system resources.<br>
+                                <b>User Account Control (UAC):</b> Although this feature improved security, consumers found the many pop-up dialog boxes to be bothersome.<br>
+                                <b>Goals: </b>Vista tried to do too much at once and received criticism for trying to accomplish too much too soon.<br>
+                       </div>
+                        <button onclick="showCardPage(3, 12)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content12" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/777.png" alt="Image Description">
+                            <img id="special" src="img/icons/77.png" alt="Image Description">
+                            <img id="special"src="img/icons/7.jpg" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 7 (2009)</b><br>
+                                <b>User Interface Improvements:</b>
+                                Windows 7 featured a refined and visually appealing user interface. The Aero Glass design provided a sleek and transparent window management experience, enhancing overall aesthetics.
+                                <br>
+                                <b>Taskbar Enhancements:</b>
+                                The taskbar underwent significant improvements, introducing features like Jump Lists, which allowed users to access recent documents and tasks directly from the taskbar, enhancing productivity.
+                                <br>
+                                <b>Windows Search:</b>
+                                Enhanced search functionality was integrated into the Start menu, making it easier for users to find applications, files, and settings quickly. The search feature extended to indexed locations for faster results.
+                                <br>
+                                <b>HomeGroup:</b>
+                                The HomeGroup feature simplified file and printer sharing on home networks, making it easier for users to share resources securely within a local network environment.
+                                <br>
+                                <b>DirectX 11:</b>
+                                Windows 7 included DirectX 11, providing improved graphics and gaming performance, which was significant for users who engage in multimedia and gaming activities.
+                            </p>
+                            
+                       </div>
+                        <button onclick="showCardPage(3, 13)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content13" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/8.png" alt="Image Description">
+                            <img src="img/icons/8center.png" alt="Image Description">
+                            <img src="img/icons/88.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 8 (2012)</b><br>
+                                Windows 8, released in 2012, brought about a radical visual change with a distinct Start screen filled with Live Tiles, animated app shortcuts that provided real-time updates, intending to replace the traditional Start menu.
+                                <br>
+                                <b>Live Tiles:</b>
+                                The Start screen featured Live Tiles, acting as animated app shortcuts displaying dynamic information such as unread messages, providing a more engaging user interface.
+                                <br>
+                                <b>Additional Features:</b>
+                                Windows 8 introduced several additional features, including the ability to log in with a Microsoft account, support for USB 3.0, a smartphone-like lock screen, and seamless integration with Xbox Live for enhanced entertainment experiences.
+                                <br>
+                                <b>Hardware Requirements:</b>
+                                The first three editions shared similar hardware requirements with Windows 7, ensuring compatibility with existing systems. However, Windows RT 8 had distinct requirements tailored for tablet computers with ARM architecture.
+                                <br>
+                            </p>
+                       </div>
+                        <button onclick="showCardPage(3, 14)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content14" style="display:none;">
+                        <div class="card-images">
+                            <img src="img/icons/8.1.png" alt="Image Description">
+                            <img src="img/icons/8.1center.webp" alt="Image Description">
+                            <img src="img/icons/8.11.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 8.1 (2013)</b><br>
+                                Despite facing criticisms and challenges with its predecessor, Windows 8, Windows 8.1, released in 2013, aimed to rectify issues and enhance the overall user experience, addressing some of the shortcomings of the initial release.
+                                <br>
+                                <b>Windows 8 Issues:</b>
+                                Windows 8, released in 2012, received criticism for its jarring Start screen and the removal of the traditional Start menu, leading to a negative reception among consumers.
+                                <br>
+                                <b>Corrective Measures:</b>
+                                Windows 8.1 implemented notable changes to address user feedback, including the reintroduction of the Start button on the taskbar, an option to see the desktop first after logging in, an upgraded Start menu, additional snap views, new bundled apps, OneDrive integration, Internet Explorer 11, and a unified search system.
+                                <br>
+                                <b>Enhancements and Support:</b>
+                                Windows 8.1 went beyond addressing criticisms by adding support for emerging technologies such as high-resolution displays, 3D printing, Wi-Fi Direct, and Miracast streaming, showcasing a commitment to staying current with technological advancements.
+                                <br>
+                            </p>
+                            
+                            
+                       </div>
+                        <button onclick="showCardPage(3, 15)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content15" style="display:none;">
+                        <div class="card-images">
+                            <img id="special"src="img/icons/10.jpg" alt="Image Description">
+                            <img id="special"src="img/icons/10center.jpg" alt="Image Description">
+                            <img id="special"src="img/icons/100.jpg" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 10 (2015)</b><br>
+                                Windows 10, launched in 2015, offered a free update for compatible Windows 7, Windows 8.1, and Windows Phone 8.1 devices. On July 29, 2015, it was released as a free update for a full year. While the official free update period has ended, users can still theoretically upgrade to Windows 10 using the Media Creation Tool. However, the upgrade will keep users on similar Windows editions, such as Windows 7 Professional upgrading to Windows 10 Home.
+                                <br>
+                                <b>Anniversary Update (2016):</b>
+                                The Anniversary Update included the introduction of Windows Ink for stylus and touchscreen input, improvements to the Edge browser, and the addition of extensions support in Edge, enhancing its functionality.
+                                <br>
+                                <b>Creators Update (2017):</b>
+                                The Creators Update, released in 2017, focused on creative tools and gaming performance. It introduced 3D content creation tools, allowing users to create and manipulate 3D objects. The update also featured Game Mode, designed to optimize system resources for an enhanced gaming experience, and the introduction of Paint 3D, a modernized version of the classic Paint application with 3D design capabilities.
+                            </p>
+                       </div>
+                        <button onclick="showCardPage(3, 16)">Next</button>
+                    </div>
+
+                    <div class="card-content" id="card3-content16" style="display:none;">
+                        <div class="card-images">
+                            <img id="special"src="img/icons/11.webp" alt="Image Description">
+                            <img id="special" src="img/icons/11center.jpg" alt="Image Description">
+                            <img id="special"src="img/icons/111.webp" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>Windows 11 (2021)</b><br>
+                                <b>Interface Redesign:</b>
+                                Windows 11 showcases a redesigned Start menu, discarding "live tiles" in favor of a standalone "Widgets" panel on the Taskbar. These changes were inspired by the canceled Windows 10X project, offering users a fresh visual experience.
+                                <br>
+                                <b>Tiled Sets of Windows:</b>
+                                Introducing a novel way of organizing and working with open apps, Windows 11 allows users to create tiled sets of windows that can be collectively managed, providing a more flexible approach to multitasking.
+                                <br>
+                                <b>Gaming Features:</b>
+                                Windows 11 enhances the gaming experience on compatible hardware by incorporating features like Auto HDR and DirectStorage, originally from the Xbox Series X and Series S consoles. These features contribute to improved graphics and faster loading times for a more immersive gaming experience.
+                            </p>
+                       </div>
+                       <button onclick="hideEdgeCard(3)">Close Card</button>
+                    </div>
+
+                </div>
+
+              
+                <!------ DISTINCTION ---------->
+                <div id="edgeCard5" class="card" style="display:none;">
+                    <h2 class="card-title">Windows Distinction from other OS</h2>
+                    <!-- Page 1 -->
+                    <div class="card-content" id="card5-content5">
+                        <div class="card-images">
+                            <img src="img/icons/dis1.png" alt="Image Description">
+                            <img src="img/icons/dis2.png" alt="Image Description">
+                            <img src="img/icons/dis3.png" alt="Image Description">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                <b>User-Friendly Design:</b>
+                                Windows stands out for its ease of use and management, offering a user-friendly interface designed for individuals with basic computer knowledge. This simplicity sets it apart from other operating systems.
+                                <br>
+                                <b>Universal Device Compatibility:</b>
+                                Windows is compatible with a diverse range of devices, making it a versatile choice that seamlessly integrates with various hardware configurations.
+                                <br>
+                                <b>Gaming Support:</b>
+                                Windows boasts an extensive library of games and exceptional graphical support, catering to gaming enthusiasts and providing a superior gaming experience compared to other operating systems.
+                                <br>
+                                <b>Work Environment Integration:</b>
+                                Effortless integration into work environments is a hallmark of Windows, supporting essential productivity tools like Microsoft Office. This integration enhances efficiency and collaboration in professional settings.
+                                <br>
+                                <b>Security and Updates:</b>
+                                Microsoft prioritizes security by providing timely and consistent updates, ensuring that Windows users benefit from the latest features and remain protected against potential threats.
+                                <br>
+                            </p>
+                                                    </div>
+                        <button onclick="showCardPage(5, 6)">Next</button>
+                    </div>
+                    
+                    <!-- Page 2 (initially hidden) -->
+                    <div class="card-content" id="card5-content6" style="display:none;">
+                        <p>
+                            <b>Microsoft Office Compatibility:</b>
+                                Windows is the preferred platform for Microsoft Office users, delivering a seamless and efficient experience with essential productivity tools, further distinguishing itself in the business and academic sectors.
+                                <br>
+                                <b>Multitasking Excellence:</b>
+                                Windows excels in multitasking, allowing users to effortlessly switch between applications and manage multiple tasks concurrently, enhancing overall productivity.
+                                <br>
+                                <b>System Restore and Recovery:</b>
+                                With reliable system restore and recovery features, Windows provides users with the assurance that unexpected issues can be addressed efficiently, minimizing downtime and data loss.
+                                <br>
+                                <b>Wide Hardware and Software Compatibility:</b>
+                                Windows offers wide compatibility with both hardware and software devices, ensuring users have a broad range of options when selecting components and applications for their systems.
+                                <br>
+                                <b>Familiar User Interface:</b>
+                                Designed with a user-friendly and familiar interface, Windows provides a consistent and recognizable environment that makes navigation and usage intuitive for a diverse user base.
+                                <br>
+                                <b>Multimedia Features:</b>
+                                Windows includes a plethora of multimedia features, catering to users who prioritize audio, video, and graphics functionalities, enhancing the overall entertainment experience.
+                        </p>
+                        <button onclick="hideEdgeCard(5)">Close Card</button>
+                    </div>
+                </div>
+
+                 <!------ DISCOVER MORE ---------->
+                <div id="edgeCard7" class="card" style="display:none;">
+                    <h2 class="card-title">Discover More</h2>
+                    <div class="card-content" id="card5-content5">
+                        <p>
+                            &nbsp;&nbsp;&nbsp;Explore the rich history and features of Windows OS through various online resources. Dive into these additional videos references to enhance your understanding.
+                        </p>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/vqt94b8bNVc?si=Kla8gFXQJ71XVYjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/4oE6nEt3uRM?si=X7YPBNnuOavDKEcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/9DCNt0cqTQY?si=CzNQEihphwk5wiQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/Vai9bdnw_uo?si=AIo3MQAvEq_7yHVV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/FTr8rgWQ7o4?si=hOvEOhUHddimO6zy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="430" height="283" src="https://www.youtube.com/embed/Xjq0kljBZnY?si=dzyuVLVcTtP2EcDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <button onclick="hideEdgeCard(7)">Close Card</button>
+                </div>
+
+                  <!------ DISTINCTION ---------->
+                  <div id="edgeCard8" class="card" style="display:none;">
+                    <h2 class="card-title">References</h2>
+                    <!-- Page 1 -->
+                    <div class="card-content" id="card5-content5">
+                        <div class="card-images">
+                        </div>
+                        <div class="card-text">
+                                <p> 1. A Visual History of Windows. (n.d.). PCMAG. 
+                                    <a href="https://www.pcmag.com/news/a-visual-history-of-windows" class="reference-link" target="_blank">https://www.pcmag.com/news/a-visual-history-of-windows</a>
+                                </p>
+                                <p> 2. A Brief Windows OS History From 1985 to Date. SoftwareKeep.  
+                                    <a href="https://softwarekeep.com/blog/history-of-windows-operating-system" class="reference-link" target="_blank">https://softwarekeep.com/blog/history-of-windows-operating-system</a>
+                                </p>
+                                <p> 3. Bellis, M. (2019, October 4). The Unusual History of Microsoft Windows. ThoughtCo. 
+                                    <a href="https://www.thoughtco.com/unusual-history-of-microsoft-windows-1992140" class="reference-link" target="_blank">https://www.thoughtco.com/unusual-history-of-microsoft-windows-1992140</a>
+                                </p>
+                                <p> 4. Gillis, A. S., & Hanna, K. T. (2022, March 14). Windows. SearchWindowsServer. 
+                                    <a href="https://www.techtarget.com/searchwindowsserver/definition/Windows" class="reference-link" target="_blank">https://www.techtarget.com/searchwindowsserver/definition/Windows</a>
+                                </p>
+                                <p> 5. Gibbs, S. (2017, February 21). From Windows 1 to Windows 10: 29 years of Windows evolution. The Guardian. 
+                                    <a href="https://www.theguardian.com/technology/2014/oct/02/from-windows-1-to-windows-10-29-years-of-windows-evolution" class="reference-link" target="_blank">https://www.theguardian.com/technology/2014/oct/02/from-windows-1-to-windows-10-29-years-of-windows-evolution</a>
+                                </p>
+                                <p> 6. Slater, J. (2022, March 23). A Brief History of Windows From 1985 to Present Day. MUO. 
+                                    <a href="https://www.makeuseof.com/windows-brief-history/" class="reference-link" target="_blank">https://www.makeuseof.com/windows-brief-history/</a>
+                                </p>
+                                <p> 7. A. (2022, December 23). Microsoft Windows - Introduction, Versions, History &amp;amp; Development. BYJUS 
+                                    <a href="https://byjus.com/govt-exams/microsoft-windows/" class="reference-link" target="_blank">https://byjus.com/govt-exams/microsoft-windows/</a>
+                                </p>
+                                <p> 8. User, A. (2021, March 24). THE HISTORY OF WINDOWS OPERATING SYSTEM. MindStick. 
+                                    <a href="https://www.mindstick.com/articles/326090/the-history-of-windows-operating-system" class="reference-link" target="_blank">https://www.mindstick.com/articles/326090/the-history-of-windows-operating-system</a>
+                                </p>
+                                <p> 9. Microsoft Windows through the years: Version 1.0 to Windows 11. (n.d.). CNET. 
+                                    <a href="https://www.cnet.com/pictures/microsoft-windows-through-the-years-version-1-0-to-windows-11/" class="reference-link" target="_blank">https://www.cnet.com/pictures/microsoft-windows-through-the-years-version-1-0-to-windows-11/</a>
+                                </p>
+                                
+                            
+                         </div>
+                        <button onclick="showCardPage(8, 6)">Next</button>
+                    </div>
+                    
+                    <!-- Page 2 (initially hidden) -->
+                    <div class="card-content" id="card8-content6" style="display:none;">
+                        <p> 10. What is the history of Microsoft Windows? (n.d.). Copyright 2023, the Trustees of Indiana University
+                            <a href="https://kb.iu.edu/d/abwa" class="reference-link" target="_blank">https://kb.iu.edu/d/abwa</a>
+                        </p>
+                        <p> 11. Lewis, D. (2023, November 22). 30 Surprising Facts About Microsoft. The Fact Site. 
+                            <a href="https://www.thefactsite.com/microsoft-facts/" class="reference-link" target="_blank">https://www.thefactsite.com/microsoft-facts/</a>
+                        </p>
+                        <p> 12. Facts about Windows Operating System - javatpoint. (n.d.)
+                            <a href="https://www.javatpoint.com/facts-about-windows-operating-system" class="reference-link" target="_blank">https://www.javatpoint.com/facts-about-windows-operating-system</a>
+                        </p>
+                        <p> 13. Windows 10 – 10 Interesting Facts to know. (2023, February 25). Computer Solutions East. 
+                            <a href="https://www.computersolutionseast.com/blog/windows-10/windows-10-10-interesting-facts-to-know-2/" class="reference-link" target="_blank">https://www.computersolutionseast.com/blog/windows-10/windows-10-10-interesting-facts-to-know-2/</a>
+                        </p>
+                        <p> 14. George, A. (2020, April 6). The history of Windows: How the OS has changed over time. Digital Trends. 
+                            <a href="https://www.digitaltrends.com/computing/the-history-of-windows/" class="reference-link" target="_blank">https://www.digitaltrends.com/computing/the-history-of-windows/</a>
+                        </p>
+                        <p> 15. Kalra, B. (2023, August 10). Difference between Linux and Windows. 
+                            <a href="https://www.nwkings.com/difference-between-linux-and-windows" class="reference-link" target="_blank">https://www.nwkings.com/difference-between-linux-and-windows</a>
+                        </p>
+                        <p> 16. Meilinaeka, M. (2023, April 28). The Definition of Windows Operating System: History, Functions, and Features. Direktorat Pusat Teknologi Informasi. 
+                            <a href="https://it.telkomuniversity.ac.id/en/windows-operating-system/" class="reference-link" target="_blank">https://it.telkomuniversity.ac.id/en/windows-operating-system/</a>
+                        </p>
+                        <p> 17. Bigelow, S. J. (2022, November 10). Windows 10 (Microsoft Windows 10). Enterprise Desktop. 
+                            <a href="https://www.techtarget.com/searchenterprisedesktop/definition/Windows-10" class="reference-link" target="_blank">https://www.techtarget.com/searchenterprisedesktop/definition/Windows-10</a>
+                        </p>
+                        <p> 18. Interesting Facts about WINDOWS. (2022, May 9). GeeksforGeeks. 
+                            <a href="https://www.geeksforgeeks.org/interesting-facts-about-windows/" class="reference-link" target="_blank">https://www.geeksforgeeks.org/interesting-facts-about-windows/</a>
+                        </p>
+                        <button onclick="hideEdgeCard(8)">Close Card</button>
+                    </div>
+                </div>
+
+                    
+
+                <!--CREATIVE TEAM-->
+                <div id="edgeCard6" style="display:none;">
+                    <h2 class="card-title">Creative Team</h2>
+                    <p id="creative-text">Welcome to the heart of our digital domain— the Creative Team! We, a group of talented second-year BSIT students from Bicol University College of Science in Legazpi Albay, are the architects behind the scenes, crafting an immersive experience for your exploration of the Windows operating system.
+                    Dive into our world where passion for technology converges with creative prowess. From unraveling the intricacies of Windows OS to curating engaging content and captivating backgrounds, our team is devoted to delivering a website that serves as your gateway to the fascinating realm of Windows.
+                    </p>
+                    
+                    <!-- Page 1 -->
+                    <div class="card-content" id="card6-content6">
+                        <div class="card-images">
+                            <div id="profile" class="image-container">
+                                <img src="img/icons/re.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Rechelle Inocencio</h2>
+                                <p class="role-description">Project Leader</p>
+                                <a href="mailto:rgci2022-3852-26816@bicol-u.edu.ph" class="email-link">rgci2022-3852-26816@bicol-u.edu.ph</a>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/je.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Jerald Jay Buban</h2>
+                                <p class="role-description">Content Specialist</p>
+                                <a href="mailto:jjgb2022-7633-85760@bicol-u.edu.ph" class="email-link">jjgb2022-7633-85760@bicol-u.edu.ph</a>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/fr.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Fredrick Depante</h2>
+                                <p class="role-description">Content Specialist</p>
+                                <a href="mailto:fjsd2022-7053-68397@bicol-u.edu.ph" class="email-link">fjsd2022-7053-68397@bicol-u.edu.ph</a> 
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/ke.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Ken Anne Acosta</h2>
+                                <p class="role-description">Content Specialist</p>
+                                <a href="mailto:kaja2022-2721-41239@bicol-u.edu.ph" class="email-link">kaja2022-2721-41239@bicol-u.edu.ph</a><br><br><br>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/pre.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Precious Gwynth Mallo</h2>
+                                <p class="role-description">Content Specialist</p>
+                                <a href="mailto:pgam2022-5740-97655@bicol-u.edu.ph" class="email-link">pgam2022-5740-97655@bicol-u.edu.ph</a>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/cl.jpg" alt="Team Member 1">
+                                <h2 class="image-title">Clarence Maneja</h2>
+                                <p class="role-description">Content Specialist</p>
+                                <a href="mailto:cjbm2022-7360-36736@bicol-u.edu.ph" class="email-link">cjbm2022-7360-36736@bicol-u.edu.ph</a>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/ja.jpg" alt="Team Member 1">
+                                <h2 class="image-title">James Anthony Rosales</h2>
+                                <p class="role-description">UI/UX Designer</p>
+                                <a href="mailto:jaor-2022-6131-98317@bicol-u.edu.ph" class="email-link">jaor-2022-6131-98317@bicol-u.edu.ph</a>
+                            </div>
+                            <div class="image-container">
+                                <img src="img/icons/vi2.png" alt="Team Member 1">
+                                <h2 class="image-title">Vicente Bercasio II</h2>
+                                <p class="role-description">UI/UX Designer</p>
+                                <a href="mailto:vicb2022-5085-80833@bicol-u.edu.ph" class="email-link">vicb2022-5085-80833@bicol-u.edu.ph</a>
+                            </div>
+                        </div>
+                        <button onclick="hideEdgeCard(6)">Back</button>
+                    </div>
+                </div>
+                
+
+    <div class="taskbar">
+        <div class="weather">
+            <img src="img/icons/cloudyDay.svg" alt="" class="icon">
+            <div class="info">
+                <p>36°C</p>
+                <p>Legazpi, Albay</p>
+            </div>
+        </div>
+
+        <img id="Menu" src="img/icons/startButton.png" alt="Start Menu">
+        <img id="SearchIcon" src="img/icons/search-icon.svg" alt="Search">
+        <img id="TaskView" src="img\icons\taskView.svg" alt="TaskView">
+        <img id="Widgets" src="img\icons\widgets.svg" alt="Widgets">
+
+        <div class="rightTaskbar">
+            <img src="img\icons\up.svg" alt="" onclick="Fullscreen()" title="CLICK HERE FOR FULL SCREEN">
+            <img src="img\icons\keyboard.svg" alt="">
+
+            <div class="action-center-button" onclick="document.getElementById('acCheck').click()">
+                <img src="img\icons\wifi.svg" alt="">
+                <img src="img\icons\speaker.svg" alt="">
+                <img src="img\icons\batteryFull.svg" alt="">
+            </div>
+
+            <div class="time" id="DateTime">
+                <div id="timedate">
+                    <a id="h">12</a>:<a id="m">00</a>
+                    <!-- <a id="s">00</a>: -->
+                    <a id="mi">000</a>
+                    <br />
+                    <a id="d">01</a>/<a id="mon">1</a>/<a id="y">0</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="startMenuPlace">
+        <!-- <div class="startmenu" style="bottom: 50px; transform: translateX(0px);"> -->
+        <div class="startmenu">
+            <div class="search">
+                <div class="SearchIcon"></div>
+                <input type="text" class="SearchInput" id="myInput" onkeyup="myFunction()"
+                    placeholder="Search for apps, settings and documents" title="Search for your Favorite Application">
+            </div>
+            <div class="pinned">
+
+                <div class="start-top-elements">
+                    <span>Pinned</span>
+                    <button class="openAll" id="allapps">All apps <img src="img/icons/right.svg" alt="open all apps"
+                            class="smallRight"></button>
+                </div>
+
+                <div class="start-icons" id="myICONS">
+
+                    <figure id="startWord">
+                        <img src="img/icons/word.svg" alt="MS Word icon">
+                        <figcaption>Word</figcaption>
+                    </figure>
+                    <figure id="startEdge">
+                        <img src="img/icons/edge.svg" alt="Windows 11 Edge icon">
+                        <figcaption>Edge</figcaption>
+                    </figure>
+                    <figure id="startPowerPoint">
+                        <img src="img/icons/powerPoint.svg" alt="PowerPoint icon">
+                        <figcaption>PowerPoint</figcaption>
+                    </figure>
+                    <figure id="startExcel" onclick="executeProgram('excel')">
+                        <img src="img/icons/excel.svg" alt="MS Excel icon">
+                        <figcaption>Excel</figcaption>
+                    </figure>
+                    <figure id="startMail">
+                        <img src="img/icons/mail.svg" alt="Windows Mail icon">
+                        <figcaption>Mail</figcaption>
+                    </figure>
+                    <figure id="startStore">
+                        <img src="img/icons/store.png" alt="Windows 11 Microsoft Store icon">
+                        <figcaption>MS Store</figcaption>
+                    </figure>
+                    <figure id="startPhotos">
+                        <img src="img/icons/photos.svg" alt="Windows Photos icon">
+                        <figcaption>Photos</figcaption>
+                    </figure>
+                    <figure id="startCalendar">
+                        <img src="img/icons/calender.svg" alt="Windows Calender icon">
+                        <figcaption>Calender</figcaption>
+                    </figure>
+                    <figure id="startOneNote">
+                        <img src="img/icons/oneNote.svg" alt="OneNote icon">
+                        <figcaption>OneNote</figcaption>
+                    </figure>
+                    <figure id="startYourPhone">
+                        <img src="img/icons/yourPhone.svg" alt="Windows Your Phone icon">
+                        <figcaption>Your Phone</figcaption>
+                    </figure>
+                    <figure id="startClock">
+                        <img src="img/icons/clock.svg" alt="Windows Clock icon">
+                        <figcaption>Clock</figcaption>
+                    </figure>
+                    <figure id="startLinkedIn">
+                        <img src="img/icons/linkedIn.svg" alt="LinkedIn icon">
+                        <figcaption>LinkedIn</figcaption>
+                    </figure>
+                    <figure id="startToDo">
+                        <img src="img/icons/toDo.svg" alt="Microsoft To DO icon">
+                        <figcaption>To Do</figcaption>
+                    </figure>
+                    <figure id="startSettings" onclick="executeProgram('settings')">
+                        <img src="img/icons/settings.svg" alt="Windows 11 Settings icon">
+                        <figcaption>Settings</figcaption>
+                    </figure>
+                    <figure id="startCalci">
+                        <img src="img/icons/calculator.svg" alt="Windows Calculator icon">
+                        <figcaption>Calculator</figcaption>
+                    </figure>
+                    <figure id="startWhiteboard">
+                        <img src="img/icons/whiteboard.png" alt="Windows Whiteboard icon">
+                        <figcaption>Whiteboard</figcaption>
+                    </figure>
+                    <figure id="startSnip">
+                        <img src="img/icons/snipSketch.svg" alt="Windows Snipping Tool icon">
+                        <figcaption>Snipping Tool</figcaption>
+                    </figure>
+                    <figure id="startMovies">
+                        <img src="img/icons/movies.svg" alt="Windows Movies &amp; TV icon">
+                        <figcaption>Movies &amp; TV</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+            <div class="recommended">
+                <div class="start-top-elements">
+                    <span>Recommended</span>
+                    <button class="openAll" id="allapps">More <img src="img/icons/right.svg" alt="open all apps"
+                            class="smallRight"></button>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="user">
+                    <img src="https://img.freepik.com/free-vector/group-therapy-illustration-concept_52683-45727.jpg" alt="Windows 11 User icon">
+                    <span>Group 1 Admin</span>
+                </div>
+                <img src="img/icons/shutdown.svg" alt="Windows 11 Shutdown icon" id="shutdown">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="searchmenu">
+        <div class="search">
+            <div class="SearchIcon"></div>
+            <input type="text" class="SearchInput" id="myInput1" onkeyup="myFunction1()"
+                placeholder="Search for names.." title="Search for your Favorite Application">
+        </div>
+        <div class="pinned">
+
+            <div class="search-top-elements">
+                <span style="font-weight: 700;">All</span>
+                <span>Apps</span>
+                <span>Documents</span>
+                <span>Web</span>
+                <span>More<img src="img\icons\down.svg" alt="open all apps" class="moreSearch"></span></button>
+            </div>
+            <div class="topApps">
+                <span>Top Apps</span>
+                <div class="Search-Apps-Icons" id="myICONS1">
+                    <figure id="DefaultDisplaySearch">
+                        <img src="img/icons/edge.svg" alt="Windows 11 Edge icon">
+                        <figcaption>Edge</figcaption>
+                    </figure>
+
+                    <figure id="DefaultDisplaySearch">
+                        <img src="img/icons/calculator.svg" alt="Windows Calculator icon">
+                        <figcaption>Calculator</figcaption>
+                    </figure>
+
+                    <figure id="DefaultDisplaySearch">
+                        <img src="img/icons/word.svg" alt="MS Word icon">
+                        <figcaption>Word</figcaption>
+                    </figure>
+
+                    <figure id="DefaultDisplaySearch" onclick="executeProgram('settings')">
+                        <img src="img/icons/settings.svg" alt="Windows 11 Settings icon">
+                        <figcaption>Settings</figcaption>
+                    </figure>
+
+                    <figure id="DefaultDisplaySearch">
+                        <img src="img/icons/powerPoint.svg" alt="PowerPoint icon">
+                        <figcaption>PowerPoint</figcaption>
+                    </figure>
+
+                    <figure id="startExcel" onclick="executeProgram('excel')">
+                        <img src="img/icons/excel.svg" alt="MS Excel icon">
+                        <figcaption>Excel</figcaption>
+                    </figure>
+                    <figure id="startMail">
+                        <img src="img/icons/mail.svg" alt="Windows Mail icon">
+                        <figcaption>Mail</figcaption>
+                    </figure>
+                    <figure id="startStore">
+                        <img src="img/icons/store.png" alt="Windows 11 Microsoft Store icon">
+                        <figcaption>MS Store</figcaption>
+                    </figure>
+                    <figure id="startPhotos">
+                        <img src="img/icons/photos.svg" alt="Windows Photos icon">
+                        <figcaption>Photos</figcaption>
+                    </figure>
+                    <figure id="startCalendar">
+                        <img src="img/icons/calender.svg" alt="Windows Calender icon">
+                        <figcaption>Calender</figcaption>
+                    </figure>
+                    <figure id="startOneNote">
+                        <img src="img/icons/oneNote.svg" alt="OneNote icon">
+                        <figcaption>OneNote</figcaption>
+                    </figure>
+                    <figure id="startYourPhone">
+                        <img src="img/icons/yourPhone.svg" alt="Windows Your Phone icon">
+                        <figcaption>Your Phone</figcaption>
+                    </figure>
+                    <figure id="startClock">
+                        <img src="img/icons/clock.svg" alt="Windows Clock icon">
+                        <figcaption>Clock</figcaption>
+                    </figure>
+                    <figure id="startLinkedIn">
+                        <img src="img/icons/linkedIn.svg" alt="LinkedIn icon">
+                        <figcaption>LinkedIn</figcaption>
+                    </figure>
+                    <figure id="startToDo">
+                        <img src="img/icons/toDo.svg" alt="Microsoft To DO icon">
+                        <figcaption>To Do</figcaption>
+                    </figure>
+                    <figure id="startWhiteboard">
+                        <img src="img/icons/whiteboard.png" alt="Windows Whiteboard icon">
+                        <figcaption>Whiteboard</figcaption>
+                    </figure>
+                    <figure id="startSnip">
+                        <img src="img/icons/snipSketch.svg" alt="Windows Snipping Tool icon">
+                        <figcaption>Snipping Tool</figcaption>
+                    </figure>
+                    <figure id="startMovies">
+                        <img src="img/icons/movies.svg" alt="Windows Movies &amp; TV icon">
+                        <figcaption>Movies &amp; TV</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="recentSearches">
+                <span>Recent</span>
+                <div class="Recent-Apps-Icons">
+                    <figure id="Recent-Searches">
+                        <img src="img\icons\clock.svg" alt="Clock icon">
+                        <figcaption>Clock</figcaption>
+                    </figure>
+                    <figure id="Recent-Searches" onclick="executeProgram('settings')">
+                        <img src="img/icons/settings.svg" alt="Windows 11 Settings icon">
+                        <figcaption>Settings</figcaption>
+                    </figure>
+                    <figure id="Recent-Searches">
+                        <img src="img\icons\yourPhone.svg" alt="Your Phone icon">
+                        <figcaption>Your Phone</figcaption>
+                    </figure>
+
+                    <figure id="Recent-Searches">
+                        <img src="img\icons\vscode.svg" alt="VS Code icon">
+                        <figcaption>VS Code</figcaption>
+                    </figure>
+
+
+
+                    <figure id="Recent-Searches">
+                        <img src="img\icons\terminal.svg" alt="Terminal icon">
+                        <figcaption>Terminal</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="widgetMenu" style="left: 0px;"> -->
+    <div class="widgetMenu">
+        <div class="time">
+            <div class="timedate_Of_Widgets">
+                <a class="hours">00</a>:
+                <a class="minutes">00 </a>&nbsp;
+                <a class="am_pm">AM </a>
+            </div>
+        </div>
+
+        <div class="WidgetsPlace">
+
+            <div class="AllWidget Wheather">
+                <div class="topMenuWidget">
+                    <div>
+                        <img src="img/icons/cloudyDay.svg" alt="">
+                        <span class="MainApp">Wheather</span>
+                    </div>
+
+                    <img src="img\icons\more-info.png" class="moreInfo"></img>
+                </div>
+
+                <div class="MainContentWindow">
+                    <img src="img\icons\sun-icon.png" alt="">
+
+                    <div class="leftPart">
+                        <div class="Part1">
+                            <img src="img\icons\home.png" alt="">
+                            <p>Parc. soleado, US</p>
+
+                        </div>
+                        <div class="Part2">
+                            <span>16°C</span>
+                            <p>Strong UV Today</p>
+                        </div>
+                        <div class="Part3">
+                            See Full Forecast
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="AllWidget MicrosoftEdge">
+                <div class="topMenuWidget">
+                    <div>
+                        <img src="img\icons\edge.svg" alt="">
+                        <span class="MainApp">Microsoft Edge</span>
+                    </div>
+
+                    <img src="img\icons\more-info.png" class="moreInfo"></img>
+                </div>
+
+                <div class="MainContentWindow">
+                    <div class="search">
+                        <div class="SearchIcon"></div>
+                        <input type="text" class="SearchInput" id="myInput1" onkeyup="" placeholder="Search on Web.."
+                            title="Search on Web">
+                    </div>
+                    <p>
+                        <img src="img\icons\location-pin.png" alt=""> Parc. soleado, US
+                    </p>
+                </div>
+            </div>
+            <div class="AllWidget MicrosoftOneDrive">
+                <div class="topMenuWidget">
+                    <div>
+                        <img src="img\icons\icons8-microsoft-onedrive-2019.svg" alt="">
+                        <span class="MainApp">Photos</span>
+                    </div>
+                    <img src="img\icons\more-info.png" class="moreInfo"></img>
+                </div>
+
+                <div class="heading">On this Day</div>
+                <div class="subHeading">
+                    <span>OCT 22</span>
+                    <p>See all</p>
+                </div>
+
+                <div class="Images">
+                    <img src="https://308286-943399-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/03/stylish-standard-whatsapp-dp-for-boys.png"
+                        alt="" style="border-radius: 0 0 0 8px;">
+
+
+                    <div>
+                        <span>
+                            <img src="https://c4.wallpaperflare.com/wallpaper/757/370/472/heavy-bike-harley-davidson-harley-davidson-modified-wallpaper-preview.jpg"
+                                alt="">
+                            <img src="https://wallpaperaccess.com/full/124378.jpg" alt=""
+                                style="border-radius: 0 0 8px 0;">
+                        </span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="AllWidget MicrosoftToDo"></div>
+        </div>
+    </div>
+
+    <!-- Date Time Menu -->
+    <div class="container-date-time" id="DateTimeMenu">
+        <div class="notification">
+            <h1>Notifications</h1>
+        </div>
+        <div class="week-month-date"></div>
+        <div class="calendar">
+            <div class="month">
+                <div class="date">
+                    <h1></h1>
+                    <div class="prev-next">
+                        <i class="fas fa-angle-left prev"><b>&#60;</b></i>
+                        <i class="fas fa-angle-right next"><b>&#62;</b></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="weekdays">
+                <div>Su</div>
+                <div>Mo</div>
+                <div>Tue</div>
+                <div>We</div>
+                <div>Th</div>
+                <div>Fr</div>
+                <div>Sa</div>
+            </div>
+            <div class="days"></div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
